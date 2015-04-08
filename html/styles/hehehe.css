@@ -1,0 +1,36 @@
+/*base*/
+*{
+	/*clear: both;*/
+}
+body{
+	width: 1000px;
+	margin: 10px auto;
+}
+/*header*/
+#header{
+	width: 1000px;
+	margin: 1px auto;
+	border: 1px solid;
+	height: 50px;
+}
+.header-main h3{
+	background-color: #fff;
+	color: #000;
+	width: 170px;
+	position: absolute;
+	text-align: center;
+	line-height: 48px;
+	margin-top: 0px;
+	border:1px solid;
+}
+.searchform{
+	margin-top:10px;
+	margin-left:180px;
+	width: 170px;
+	position: absolute;
+	
+}
+.searchform input{
+	line-height: 28px;
+	width: 200px;
+}
