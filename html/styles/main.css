@@ -1,10 +1,12 @@
 /*header样式*/
-
+/*body{
+	background-color: #C0FAFF;
+}*/
 header{
 	border: 1px solid;
 	margin: 20px auto;
 	height: 48px;
-	width: 1000px;
+	width: 980px;
 	border-radius:10px; 
 	position: relative;
 }
@@ -22,30 +24,47 @@ header{
 	float: right;
 }
 
+/*section*/
+section{
+	width: 750px;
+	/*position: absolute;*/
+	border-right: 1px solid #dddddd;
+	left: 0px;
+	position: relative;
+}
+/*aside*/
+aside{
+	position: absolute;
+	float: right;
+	right: 0px;
+	top: 80px;
+	margin-top: 20px;
+	/*position: relative;*/
+	width: 200px;
+	
+}
+
 /*footer样式*/
 
 footer{
-	border: 1px solid #000000;
+	border: 1px solid #dddddd;
 	margin-top: 40px;
 	position: relative;
-	/*bottom: 0x;*/
-	width: 1000px;
-	/*padding:5px;*/
+	width: 980px;
+	padding:2px;
 	text-align: center;
+	border-radius: 10px;
 }
+
 footer ul{
 	list-style: none;
-	margin: 0 auto;
-	/*text-align: center;*/
+	height: 25px;
+	line-height: 25px;
+	margin-left: 30%;
 }
 footer ul li {
 	float: left;
 	margin:1px 10px; 
-	display: block;
-}
-footer ul li a{
-    display: block;
-}
-footer p{
-	/*text-align: center;*/
+	/*display: block;*/
+	padding: 2px 10px;
 }
