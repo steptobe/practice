@@ -1,0 +1,53 @@
+/*index样式*/
+article{
+	padding: 5px;
+	position: relative;
+	background-color: #cceeff;
+	width: 700px;
+	border: 1px solid #cceeff;
+	margin-bottom: 10px;
+	border-radius: 10px;
+
+}
+
+article a{
+	text-decoration: underline;
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+article a{
+	color: #000;
+}
+.article-left{
+	left:5px;
+	width: 580px;
+	position: relative;
+}
+.article-right{
+	 right:5px;
+	margin-top: -70px;
+	position: absolute;
+	
+}
+.article-right ul{
+	list-style: none;
+
+}
+/*.article-right ul li{
+	padding-bottom: 10px;
+}*/
+
+aside h4,aside h6{
+    margin-left: -10px;
+    padding-left: 0px;
+    
+}
+aside ul{
+	list-style: none;
+	padding-left: 6px;
+}
+aside ul li{
+    padding: 5px;
+
+}
