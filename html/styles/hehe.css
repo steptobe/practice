@@ -1,0 +1,49 @@
+/*index中content的样式*/
+#content-left{
+	float: left;
+    width: 700px;
+}
+h2{
+
+}
+
+.content-comment{
+	width: 800px;
+	border: 1px solid;
+	margin-bottom: 10px;
+	padding: 1px 0px 10px 10px;
+	position: relative;
+
+	
+}
+.comment-left{
+	left:0px;
+	width: 600px;
+    position: relative;
+	
+}
+.comment-right{
+	top: 10px;
+	right: 15px;
+	position: absolute;
+	text-align: center;
+}
+
+.number{
+	/*height: 10px;
+	line-height: 10px;*/
+	margin:10px 0 10px 0;	
+}
+.comment{
+    /*margin-top: -5px;*/
+}
+
+.comment-time-ago{
+	margin-top: 5px;
+	padding-right: 10px;
+}
+/*.comment-time, .comment-author,.comment-time-ago{
+	float: right;
+	margin-top: -10px;
+
+}*/
