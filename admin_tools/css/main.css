@@ -1,0 +1,21 @@
+header{
+	margin-bottom: 70px;
+	position: relative;
+}
+@media screen and (min-width: 768px) {
+    .function {
+        width: 200px;
+        position: absolute;
+    }
+    .right_aside {
+    	width: auto;
+		margin-left: 230px;
+		position: relative;
+	}
+}
+.function li{
+	border:1px solid #eee;
+}
+.btn-group > .btn + .dropdown-toggle {
+	height: 34px;
+}

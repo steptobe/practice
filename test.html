@@ -1,0 +1,33 @@
+<html>
+<head>
+<script src="scripts/selectcd.js"></script>
+<script type="text/javascript" src="scripts/getrss.js"></script>
+</head>
+
+<body>
+
+<form> 
+Select a CD:
+<select name="cds" onchange="showCD(this.value)">
+<option value="Bob Dylan">Bob Dylan</option>
+<option value="Bee Gees">Bee Gees</option>
+<option value="Cat Stevens">Cat Stevens</option>
+</select>
+</form>
+
+<p>
+<div id="txtHint"><b>CD info will be listed here.</b></div>
+</p>
+<br>
+<form> 
+Select an RSS-Feed:
+<select onchange="showRSS(this.value)">
+<option value="Google">Google News</option>
+<option value="MSNBC">MSNBC News</option>
+</select>
+</form>
+
+<p><div id="rssOutput">
+<b>RSS Feed will be listed here.</b></div></p>
+</body>
+</html>

@@ -1,111 +1,103 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Bootstrap 101 Template</title>
-    <!-- Bootstrap -->
-    <link href="styles/bootstrap.css" rel="stylesheet">
-    <link href="styles/bootstrap-theme.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link rel="stylesheet" type="text/css" href="styles/index.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <header>
-         <form class="form-horizontal" >
-           <div class="form-group ">
-               <label class="col-sm-2 control-label" for="formGroupInputLarge"><a href="/" class="btn btn-primary btn-lg active" role="button">Whocalledchecker</a></label>
-               <div class="col-sm-3">
-                  <input class="form-control " type="text" id="formGroupInputLarge" placeholder="Q">
-               </div>
-           </div>
-        </form>
-    </header>
-    <section>
-       <h2>lastest comment</h2>
-       <article > 
-         <div class="article-left">
-           <a class="text-danger" href="#">555-555-5555</a>
-           <p class="text-primary">I am totally humbled by some people promoting this answer, and one person actually gave me a 1000 credits. Thank you all! And with utmost gratitude, I request you people to spend your credits</p>
-         </div>
-         <div class="article-right">
-            <ul>
-               <li>April  7</li>
-               <li>by miss lu</li>
-            </ul>
-         </div>
-       </article>
-       <article > 
-         <div class="article-left">
-           <a class="text-danger" href="#">555-555-5555</a>
-           <p class="text-primary">I am totally humbled by some people promoting this answer, and one person actually gave me a 1000 credits. Thank you all! And with utmost gratitude, I request you people to spend your credits</p>
-         </div>
-         <div class="article-right">
-            <ul>
-               <li>April  7</li>
-               <li>by miss lu</li>
-            </ul>
-         </div>
-       </article>
-       <article > 
-         <div class="article-left">
-           <a class="text-danger" href="#">555-555-5555</a>
-           <p class="text-primary">I am totally humbled by some people promoting this answer, and one person actually gave me a 1000 credits. Thank you all! And with utmost gratitude, I request you people to spend your credits</p>
-         </div>
-         <div class="article-right">
-            <ul>
-               <li>April  7</li>
-               <li>by miss lu</li>
-            </ul>
-         </div>
-       </article>
-       <article > 
-         <div class="article-left">
-           <a class="text-danger" href="#">555-555-5555</a>
-           <p class="text-primary">I am totally humbled by some people promoting this answer, and one person actually gave me a 1000 credits. Thank you all! And with utmost gratitude, I request you people to spend your credits</p>
-         </div>
-         <div class="article-right">
-            <ul>
-               <li>April  7</li>
-               <li>by miss lu</li>
-            </ul>
-         </div>
-       </article>
-    </section>
-    <aside>
-       <h4>popular number</h4>
-       <h6>from here,you can see some complaint of number.</h6>
-       <div>
-          <ul>
-             <li><span class="populal-number">(50)</span><a href="#">555-555-5555</a></li>
-             <li><span class="populal-number">(50)</span><a href="#">555-555-5555</a></li>
-             <li><span class="populal-number">(50)</span><a href="#">555-555-5555</a></li>
-             <li><span class="populal-number">(50)</span><a href="#">555-555-5555</a></li><li><span class="populal-number">(50)</span><a href="#">555-555-5555</a></li>
-          </ul>
-       </div>
-    </aside>
-    <footer>
-        <ul>
-          <li><a href="#">adout me</a></li>
-          <li><a href="#">contact me</a></li>
-          <li><a href="#">privacy policy</a></li>
-        </ul>
-      <!--  </br> -->
-       <p>copyright@2015 <a href="/">whocalledchecker</a></p>
-    </footer>
-   
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>test javascript v3</title>
+  <!-- <link rel="stylesheet" type="text/css" href="styles/bootstrap.css"> -->
+  <script type="text/javascript" >
+     // var message = "hello world!";
+     // if (message) {
+     //      alert("value is true");
+     // }
+     // var result = Number.MAX_VALUE + Number.MAX_VALUE
+     // alert(result);//number
+     // alert(isNaN(NaN));//NaN
+     // alert(isNaN('blue'));//true
+     // alert(isNaN(true));//false(可以被转化为数字)
+     //数值转换
+     // var num1 = Number("hello world");
+     // alert(num1);
+     // var num1 = parseInt("1234blue");//1234
+     // var num2 = parseInt(" ");//NaN
+     // var num3 = parseInt("07", 8);//56，按八进制解析
+     // var num4 = parseFloat("22.34.5");//22.34
+     //string 类型
+     // var text = "the is letter sigma";
+     // alert(text.length);
+     // //转换字符串
+     // var age = "11";
+     // age1 = --age + 2;
+     // alert(age1.toString());
+     // alert(age);
+     // var num1 = 10;
+     // alert(num1.toString(8));//12，表示转换八进制
+     // var num2;
+     // alert(num2.toString());//错误，没输出。
+     // alert(String(num2));
+     //布尔
+     // var found = undefined;
+     // var test = null;
+     // var result = (found && test);//
+     // alert(typeof(null));
+     // alert(result);//undefined
+     // var result = "3";
+     // var test = 3;
+     // alert(result == test);//true
+     // alert(result === test);//false,数据类型不一样
+     // //条件操作符
+     // var max = (num1 > num2) ? num1 :num2;
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-   <!-- <script src="scripts/bootstrap.min.js" type="text/JavaScript"></script>-->
-  </body>
+     // var i;
+     // function compare(i)
+     // {
+     //  if (i > 15){
+     //    alert("greater than 15");
+     //  }else if(i < 0){
+     //    alert("less than  0");
+     //  }else{
+     //    alert("between 0 and 15");
+     //  }
+     // }
+     // compare(7);
+
+     // var i = 0;
+     // do {
+     //  i += 2;
+     // } while (i < 10);
+     // alert(i);
+
+     //for 语句
+     // var count = 10;
+     // for (var i = 0; i < count; i++){         
+     // }
+     // alert(i);
+
+     // for in 语句
+     // for (var propName in window) {
+     //         document.write(propName);
+     //         document.write("<br />");
+     //    }
+
+     //label 
+     // label:   statement;
+     var num = 0;
+     outermost:
+     for (var i=0; i < 10; i++){
+         for (var j = 0; j < 10; j++){
+          if (i == 5 && j == 5){
+            continue outermost;//95
+            // break outermost;//55
+          }
+          num++;
+         }
+     }
+     alert(num);
+
+  </script>
+  
+</head>
+<body>
+
+</body>
 </html>
